@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#correr vcftools
+vcftools --vcf input.vcf --mac 2 --min-depth 200 --recode --recode-info-ALL --out output
+#esta es una modificacion para el segundo ejercicio
+#modificacion de la copia
